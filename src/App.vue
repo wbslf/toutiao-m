@@ -1,16 +1,14 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <h1>黑马头条</h1>
-    </div>
+    <!-- 路由出口 -->
     <router-view />
+
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
 }
 </script>
-<style lang="scss">
-</style>
+<style lang="scss"></style>
